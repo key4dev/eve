@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D25AC4A2F798AD58E1CD36 /* Pods_ChatAppXMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB789A5ABAC28E7297CA504C /* Pods_ChatAppXMPP.framework */; };
+		F71FE5241E0ED4630089106B /* Eve.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71FE5231E0ED4630089106B /* Eve.swift */; };
+		F71FE5261E2535820089106B /* kXMPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71FE5251E2535820089106B /* kXMPP.swift */; };
+		F71FE5281E267ACC0089106B /* EveMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71FE5271E267ACC0089106B /* EveMessage.swift */; };
 		F79E7C911DF554B80003BEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E7C901DF554B80003BEEF /* AppDelegate.swift */; };
 		F79E7C931DF554B80003BEEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E7C921DF554B80003BEEF /* ViewController.swift */; };
 		F79E7C961DF554B80003BEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79E7C941DF554B80003BEEF /* Main.storyboard */; };
@@ -14,6 +18,10 @@
 		F79E7C9B1DF554B80003BEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79E7C991DF554B80003BEEF /* LaunchScreen.storyboard */; };
 		F79E7CA61DF554B80003BEEF /* ChatAppXMPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E7CA51DF554B80003BEEF /* ChatAppXMPPTests.swift */; };
 		F79E7CB11DF554B90003BEEF /* ChatAppXMPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E7CB01DF554B90003BEEF /* ChatAppXMPPUITests.swift */; };
+		F79E7CC21DF55B8E0003BEEF /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79E7CBE1DF55B8E0003BEEF /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F79E7CC31DF55B8E0003BEEF /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79E7CBF1DF55B8E0003BEEF /* CocoaLumberjack.framework */; };
+		F79E7CC41DF55B8E0003BEEF /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79E7CC01DF55B8E0003BEEF /* KissXML.framework */; };
+		F79E7CC51DF55B8E0003BEEF /* XMPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79E7CC11DF55B8E0003BEEF /* XMPPFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11157FE62598CF8A52BD56CE /* Pods-ChatAppXMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppXMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppXMPP/Pods-ChatAppXMPP.release.xcconfig"; sourceTree = "<group>"; };
+		835039FFCDD34F9C3166F424 /* Pods-ChatAppXMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppXMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppXMPP/Pods-ChatAppXMPP.debug.xcconfig"; sourceTree = "<group>"; };
+		EB789A5ABAC28E7297CA504C /* Pods_ChatAppXMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAppXMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71FE5231E0ED4630089106B /* Eve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eve.swift; sourceTree = "<group>"; };
+		F71FE5251E2535820089106B /* kXMPP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kXMPP.swift; sourceTree = "<group>"; };
+		F71FE5271E267ACC0089106B /* EveMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EveMessage.swift; sourceTree = "<group>"; };
 		F79E7C8D1DF554B80003BEEF /* ChatAppXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79E7C901DF554B80003BEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79E7C921DF554B80003BEEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,10 @@
 		F79E7CAC1DF554B90003BEEF /* ChatAppXMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppXMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79E7CB01DF554B90003BEEF /* ChatAppXMPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppXMPPUITests.swift; sourceTree = "<group>"; };
 		F79E7CB21DF554B90003BEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79E7CBE1DF55B8E0003BEEF /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "Pods/../build/Debug-iphoneos/CocoaAsyncSocket/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
+		F79E7CBF1DF55B8E0003BEEF /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "Pods/../build/Debug-iphoneos/CocoaLumberjack/CocoaLumberjack.framework"; sourceTree = "<group>"; };
+		F79E7CC01DF55B8E0003BEEF /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = "Pods/../build/Debug-iphoneos/KissXML/KissXML.framework"; sourceTree = "<group>"; };
+		F79E7CC11DF55B8E0003BEEF /* XMPPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPPFramework.framework; path = "Pods/../build/Debug-iphoneos/XMPPFramework/XMPPFramework.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79E7CC21DF55B8E0003BEEF /* CocoaAsyncSocket.framework in Frameworks */,
+				F79E7CC31DF55B8E0003BEEF /* CocoaLumberjack.framework in Frameworks */,
+				F79E7CC41DF55B8E0003BEEF /* KissXML.framework in Frameworks */,
+				F79E7CC51DF55B8E0003BEEF /* XMPPFramework.framework in Frameworks */,
+				16D25AC4A2F798AD58E1CD36 /* Pods_ChatAppXMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622EDE0D3AB4B883C6B1C422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F79E7CBE1DF55B8E0003BEEF /* CocoaAsyncSocket.framework */,
+				F79E7CBF1DF55B8E0003BEEF /* CocoaLumberjack.framework */,
+				F79E7CC01DF55B8E0003BEEF /* KissXML.framework */,
+				F79E7CC11DF55B8E0003BEEF /* XMPPFramework.framework */,
+				EB789A5ABAC28E7297CA504C /* Pods_ChatAppXMPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F5474EBDF32438CD715B2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				835039FFCDD34F9C3166F424 /* Pods-ChatAppXMPP.debug.xcconfig */,
+				11157FE62598CF8A52BD56CE /* Pods-ChatAppXMPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F79E7C841DF554B80003BEEF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				F79E7CA41DF554B80003BEEF /* ChatAppXMPPTests */,
 				F79E7CAF1DF554B90003BEEF /* ChatAppXMPPUITests */,
 				F79E7C8E1DF554B80003BEEF /* Products */,
+				D3F5474EBDF32438CD715B2D /* Pods */,
+				622EDE0D3AB4B883C6B1C422 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +145,9 @@
 			children = (
 				F79E7C901DF554B80003BEEF /* AppDelegate.swift */,
 				F79E7C921DF554B80003BEEF /* ViewController.swift */,
+				F71FE5231E0ED4630089106B /* Eve.swift */,
+				F71FE5251E2535820089106B /* kXMPP.swift */,
+				F71FE5271E267ACC0089106B /* EveMessage.swift */,
 				F79E7C941DF554B80003BEEF /* Main.storyboard */,
 				F79E7C971DF554B80003BEEF /* Assets.xcassets */,
 				F79E7C991DF554B80003BEEF /* LaunchScreen.storyboard */,
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F79E7CB51DF554B90003BEEF /* Build configuration list for PBXNativeTarget "ChatAppXMPP" */;
 			buildPhases = (
+				1D4141CBD76C72A76BA7930A /* [CP] Check Pods Manifest.lock */,
 				F79E7C891DF554B80003BEEF /* Sources */,
 				F79E7C8A1DF554B80003BEEF /* Frameworks */,
 				F79E7C8B1DF554B80003BEEF /* Resources */,
+				B6B9B4BB5DEAA1710E16CDAD /* [CP] Embed Pods Frameworks */,
+				B08D59DB4A77FB8DC0D52851 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					F79E7C8C1DF554B80003BEEF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 78MH75WS4U;
 						ProvisioningStyle = Automatic;
 					};
 					F79E7CA01DF554B80003BEEF = {
@@ -254,13 +307,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D4141CBD76C72A76BA7930A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08D59DB4A77FB8DC0D52851 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatAppXMPP/Pods-ChatAppXMPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B9B4BB5DEAA1710E16CDAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatAppXMPP/Pods-ChatAppXMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F79E7C891DF554B80003BEEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71FE5241E0ED4630089106B /* Eve.swift in Sources */,
 				F79E7C931DF554B80003BEEF /* ViewController.swift in Sources */,
+				F71FE5261E2535820089106B /* kXMPP.swift in Sources */,
 				F79E7C911DF554B80003BEEF /* AppDelegate.swift in Sources */,
+				F71FE5281E267ACC0089106B /* EveMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -398,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -408,25 +512,47 @@
 		};
 		F79E7CB61DF554B90003BEEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835039FFCDD34F9C3166F424 /* Pods-ChatAppXMPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78MH75WS4U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaAsyncSocket",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaLumberjack",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/KissXML",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/XMPPFramework",
+				);
 				INFOPLIST_FILE = ChatAppXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.key4.tob.ChatAppXMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F79E7CB71DF554B90003BEEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11157FE62598CF8A52BD56CE /* Pods-ChatAppXMPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78MH75WS4U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaAsyncSocket",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CocoaLumberjack",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/KissXML",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/XMPPFramework",
+				);
 				INFOPLIST_FILE = ChatAppXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.key4.tob.ChatAppXMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -503,6 +629,7 @@
 				F79E7CB71DF554B90003BEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F79E7CB81DF554B90003BEEF /* Build configuration list for PBXNativeTarget "ChatAppXMPPTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +638,7 @@
 				F79E7CBA1DF554B90003BEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F79E7CBB1DF554B90003BEEF /* Build configuration list for PBXNativeTarget "ChatAppXMPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +647,7 @@
 				F79E7CBD1DF554B90003BEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

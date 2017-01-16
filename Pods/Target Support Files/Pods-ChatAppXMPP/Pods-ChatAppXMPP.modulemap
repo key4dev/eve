@@ -1,0 +1,6 @@
+framework module Pods_ChatAppXMPP {
+  umbrella header "Pods-ChatAppXMPP-umbrella.h"
+
+  export *
+  module * { export * }
+}
